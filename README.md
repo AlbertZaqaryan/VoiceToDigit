@@ -32,7 +32,6 @@ It uses a trained Neural Network (Keras Sequential model), Librosa for audio pre
    ```bash
    git clone https://github.com/yourusername/telegram-digit-bot.git
    cd telegram-digit-bot
-````
 
 2. **Install dependencies**
 
@@ -59,7 +58,6 @@ It uses a trained Neural Network (Keras Sequential model), Librosa for audio pre
 
 ## 📁 Project Structure
 
-```
 telegram-digit-bot/
 │
 ├── bot.py                # Main bot logic (Telegram + audio processing)
@@ -69,7 +67,6 @@ telegram-digit-bot/
 ├── requirements.txt
 ├── .env                  # Contains TELEGRAM_BOT_TOKEN (not versioned)
 └── README.md
-```
 
 ---
 
@@ -90,7 +87,6 @@ telegram-digit-bot/
       Dense(128, activation='relu'),
       Dense(10, activation='softmax')
   ])
-  ```
 
 ---
 
@@ -109,9 +105,7 @@ telegram-digit-bot/
 **User:** Sends voice message saying "five"
 **Bot:**
 
-```
 🧠 Predicted digit: 5
-```
 
 ---
 
@@ -165,4 +159,3 @@ MIT License © [Your Name](https://github.com/yourusername)
 * [Librosa](https://librosa.org/)
 * [PyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 
-```
