@@ -1,4 +1,3 @@
-````markdown
 # 🎧 Telegram Bot: Digit Audio to Text Prediction
 
 This project implements a Telegram bot that recognizes spoken digits (0–9) from voice messages.  
